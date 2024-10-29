@@ -14,25 +14,41 @@
         <h2>TV Series</h2>
     </header>
     <div class="container mt-5">
-        <table class="table" id="series">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-            <tbody id="tbody">
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3" class="text-right"><strong>Average Seasons:</strong></td>
-                    <td id="averageSeasons"></td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table" id="series">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-right"><strong>Average Seasons:</strong></td>
+                            <td id="averageSeasons"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div class="card" id="serieDetails" style="display: none;">
+                    <img id="cardImage" class="card-img-top" alt="Serie Image">
+                    <div class="card-header">
+                        <h5 class="card-title" id="cardTitle"></h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" id="cardChannel"></p>
+                        <p class="card-text" id="cardSeasons"></p>
+                        <p class="card-text" id="cardDescription"></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
 

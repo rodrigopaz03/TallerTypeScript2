@@ -1,11 +1,11 @@
 import{Serie} from './Serie.js';
 
 export const series = [
-    new Serie (1,"Breaking Bad","AMC", 5) ,
-    new Serie (2,"Orange Is the New Black", "Netflix", 6,),
-    new Serie (3, "Game of Thrones","HBO", 7),
-    new Serie (4, "The Big Bang Theory", "CBS", 12),
-    new Serie (5, "Sherlock", "BBC",  4),
-    new Serie (6, "A Very English Scandal", "BBC", 2),
+    new Serie (1,"Breaking Bad","AMC", 5, "https://iv1.lisimg.com/image/24820027/130full-breaking-bad.jpg", "Created by Vince Gilligan, the series follows the exploits of Walter White, a modest high school chemistry teacher, who discovers a new purpose in life when he learns he has terminal cancer and turns to a life of crime to provide for his family.") ,
+    new Serie (2,"Orange Is the New Black", "Netflix", 6, "https://coldfeet-space.nyc3.digitaloceanspaces.com/wsb/2014/03/Orange-Is-The-New-Black-Season-1.jpg", "The show follows Piper Chapman, a privileged, well-educated, white, upper-middle-class woman who is sentenced to a year and a half behind bars for transporting drug money to an ex-girlfriend."),
+    new Serie (3, "Game of Thrones","HBO", 7, "https://www.movieloci.com/img/1951-Game-of-Thrones/cover/1427394219-2196-0-cover.jpg", "The story begins when King Robert Baratheon asks his old friend, Lord Eddard Stark, to be his Hand of the King, or highest official, after the suspicious death of the previous Hand, Jon Arryn.  In the Game of Thrones, you either win or you die."),
+    new Serie (4, "The Big Bang Theory", "CBS", 12, "https://www.nytimes.com/images/blogs/tvdecoder/posts/0208/big-bang-theory2.jpg", "Set in Pasadena, California, the show is about two fictional Caltech geniuses, one an experimental physicist, Leonard Leakey Hofstadter, and the other a theoretical physicist, Sheldon Lee Cooper, who live across the hall from an attractive blonde waitress and aspiring actress, Penelope Hofstadter."),
+    new Serie (5, "Sherlock", "BBC",  4, "https://image.tmdb.org/t/p/w116_and_h174_face/hSf2frcLiEWAPUZ6wbOMTTNZ7b0.jpg", "Set in a more 2010's modern setting, Sherlock's eccentric and complex nature is accentuated as he solves seemingly supernatural crimes with unparalleled intellect while struggling to connect with others on a human level."), 
+    new Serie (6, "A Very English Scandal", "BBC", 2, "https://www.staseraintv.com/scheda/SerieTV/a/a_very_english_scandal/thumb/a_very_english_scandal_thumb.jpg", "This show is a true story of a British political scandal in which Jeremy Thorpe, former leader of the Liberal Party, was accused of conspiracy to murder his ex-lover. It's a gripping and witty account of a sordid affair that rocked the political establishment."),
   ];
    
